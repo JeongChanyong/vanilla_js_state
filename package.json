@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "http-server": "^14.1.1",
+    "vite": "^5.1.4"
+  },
+  "scripts": {
+    "start": "npx http-server ./src -c-1 -p 8001 -a localhost",
+    "dev": "vite --host 192.168.1.22 --port 4000 ./src"
+  }
+}
